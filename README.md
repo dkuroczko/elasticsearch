@@ -6,7 +6,7 @@ Ansible role for Elasticsearch installation
 Requirements
 ------------
 
-Logstash need a JVM. For your peace this role include an installation of OpenJDK.
+Elasticsearch need a JVM. For your peace this role include an installation of OpenJDK.
 
 Role Variables
 --------------
