@@ -1,0 +1,7 @@
+- name: Fetch Elasticsearch .rpm
+  get_url: url={{ elasticsearch_url }}-{{ elasticsearch_ver }}.noarch.rpm dest=/tmp/elasticsearch-{{ elasticsearch_ver }}.noarch.rpm
+
+- name: Install Elasticsearch from .rpm
+  yum: name=/tmp/elasticsearch-{{ elasticsearch_ver }}.noarch.rpm state=present
+  notify:
+   - start elasticsearch

@@ -1,0 +1,3 @@
+---
+# handlers file for elasticsearch
+- include: start_elasticsearch.yml
