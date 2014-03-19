@@ -1,4 +1,4 @@
 ---
 # vars file for elasticsearch
 elasticsearch_url: "https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch"
-elasticsearch_ver: "0.90.9"
+elasticsearch_ver: "1.0.1"
